@@ -123,7 +123,7 @@ static void draw_label(lv_obj_t *canvas, const struct status_state *state) {
 }
 
 void draw_wpm_status(lv_obj_t *canvas, const struct status_state *state) {
-    draw_gauge(canvas, state);
+    // draw_gauge(canvas, state);
     draw_needle(canvas, state);
     draw_grid(canvas);
     draw_graph(canvas, state);
